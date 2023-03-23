@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 10px 60px;
+    width: 100%;
+}
+.logo{
+    width: 15%;
+    padding: 5px;
+   
+}
+
+
+.logo img {
+    width: 100%;
+    margin-left: 110px;
+}
+nav{
+    width: 70%;
+    margin-top: 50px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 60px;
+    width: 100%;
+    color: rgb(83, 83, 83);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+nav a:hover{
+    color: rgb(174, 72, 35);
+}
+.section1{
+    background-image: url(https://www.simbrella.com/site/assets/files/1040/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   background-repeat: no-repeat;
+}
+section .text{
+    padding-top: 300px;
+    padding-left: 150px;
+}
+.text h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.text span{
+    color: #fff;
+}
+section .mouse{
+    margin: 200px 165px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.left {
+    font-size: 32px;
+    font-family: bold;
+    color: #2D3192;
+    margin-left: 7rem;
+}
+
+.right {
+    margin-top: 1.8rem;
+    margin-right: 6.8rem;
+}
+
+.right span i {
+    margin-left: 2rem;
+    font-size: 18px;
+    color: orange;
+    transition: 0.4s;
+}
+
+.right a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: bold;
+    color: #222222;
+    border: 3px solid #DFE4EB;
+    padding: 14px 24px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.right a:hover {
+    border-color: orange;
+}
+
+.right a:hover span i {
+    transform: translateX(30%);
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 27%;
+    height: 20rem;
+    border: 1px solid silver;
+    border-radius: 5px;
+    transition: 0.8s;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.box .image svg {
+    width: 100%;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.text2 h1 {
+    font-size: 24px;
+    font-family: bold;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text2 h6 {
+    font-size: 18px;
+    font-family: light;
+    color: #AFAFAF;
+    margin-bottom: 2rem;
+    padding: 0 1.6rem;
+    text-align: center;
+}
+
+.body {
+    padding: 2rem 5.2rem;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+
+   
+
+   
+
